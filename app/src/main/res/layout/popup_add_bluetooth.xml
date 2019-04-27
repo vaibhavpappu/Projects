@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_popup_add_bt"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_BTAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/EnterBTAdddr"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_add_BTName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_add_bt"
+        android:gravity="center"
+        android:hint="@string/BTName"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/colorBlue"
+        android:textColorHint="@color/colorBlue"
+        tools:ignore="Autofill">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_add_BTAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_add_bt"
+        android:gravity="center"
+        android:hint="@string/BTAddress"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/colorBlue"
+        android:textColorHint="@color/colorBlue"
+        tools:ignore="Autofill">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_saveBTAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_btn_connect"
+        android:text="@string/save"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

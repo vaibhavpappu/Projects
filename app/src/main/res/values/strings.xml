@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mera Byke</string>
+    <string name="connect">Connect to Bluetooth</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="allDevices">Paired Devices</string>
+    <string name="launchQB">Launch Quick Ball</string>
+    <string name="autoBTConnect">Auto Bluetooth Connect</string>
+    <string name="settings">SETTINGS</string>
+    <string name="Connect_Bluetooth">Connect Bluetooth</string>
+    <string name="addBT">ADD BT</string>
+    <string name="BTName">Enter BT Name</string>
+    <string name="EnterBTAdddr">Enter BT Address Here</string>
+    <string name="BTAddress">Enter BT Address</string>
+    <string name="save">Save</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="mobileNo">Enter Your Mobile Number</string>
+    <string name="OTP">Enter OTP Here</string>
+    <string name="mobileNoMessage">OTP sent to your Mobile Number</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="err_msg_mobile">Enter Correct Mobile Number</string>
+    <string name="err_msg_OTP">Enter Correct OTP</string>
+    <string name="selectDevice">Select your Bluetooth Device</string>
+</resources>

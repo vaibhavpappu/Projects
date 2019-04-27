@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rel1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_popup"
+        android:gravity="center"
+        android:padding="10dp"
+
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/connect"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:layout_marginStart="17dp"/>
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_connect"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_yes"
+            android:text="@string/yes"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_connect"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/btn_yes"
+            android:background="@drawable/shape_no"
+            android:text="@string/no"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>

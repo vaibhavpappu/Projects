@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/layoutCollapsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/collapsed_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/quickballbtn" />
+
+         <!--   <ImageView
+                android:id="@+id/buttonClose"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginLeft="45sp"
+                android:src="@drawable/cross" />-->
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutExpanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/buttonExpanded"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/quickballbtn"/>
+
+            <LinearLayout
+                android:id="@+id/buttonSimplifiedCoding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+<!--
+
+                <Button
+                    android:layout_width="35sp"
+                    android:layout_height="35sp"
+                    android:background="@drawable/ic_play_circle_filled_black_24dp"
+                    android:textSize="15dp"/>
+
+                <Button
+                    android:layout_width="35sp"
+                    android:background="@drawable/ic_check_circle_black_24dp"
+                    android:layout_height="35sp"/>
+-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
